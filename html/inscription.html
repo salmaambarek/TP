@@ -7,14 +7,14 @@
     </head>
 
 <Body>
-    <img src="logo1.jpg"alt="picture"><br>
+    <img src="../images/logo1.jpg"alt="picture"><br>
         <br> <br> <br> <br>
         <hr>
         <input type="button"value="Connexion" onclick="JSfunction()"/><br><br>
         <a href="index.html"><input type="button"value="home" onclick="JSfunction()"/></a><br><br>
-        <hr>
+        
 
-<hr>
+
 Nom:<input type="text"name="nom"/><br><br>
 Prenom:<input type="text"name="prenom"/><br><br>
 Tel:<input type="text"name="Tel"/><br><br>
@@ -23,7 +23,7 @@ Genre:<input type="radio"name="gender"value="homme">homme
 <input type="radio"name="gender"value="autre">Autre<br><br>
 e-mail:<input type="email" name="e-mail"/><br><br>
 Date naissance:<input type="date"name="date_naissance"/><br><br>
-Intérets:input type checkbox 
+Intérets:<br>
 <input type="checkbox"value="php">Camping<br>
 <input type="checkbox"value="java">Chanter<br>
 <input type="checkbox"value="html">Sports<br>
@@ -35,16 +35,34 @@ Nationnalité:<select>
     <option value="java">Allemande</option>
     
 </select><br><br>
+<form class="form-inline">
+        <div class="form-group mb-2">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+      </form>
 
-Password:<input type="password" name="pass"/><br><br>
-confirmation:<input type="password" name="pass"/><br><br>
 <form name="inscription" method="get" action="">
     <!--inputhere-->
-    <input type="submit"value="Envoyer"/>
-    <input type="reset"value="Effacer"/>
-
+    
+    
+    <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-suscces" type="submit">Submit form</button>
+          <input type="reset"value="Effacer"/>
+        </form>
 </form>
-
 
 
 
