@@ -1,6 +1,9 @@
 body{
-    background-image: -moz-linear-gradient(images) 
+    background-image: url(logo2.png);
+    background-size:  cover;
+    background-attachment: fixed;
 }
+
 
 #pgrey{
     color:grey;
