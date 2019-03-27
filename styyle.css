@@ -1,8 +1,4 @@
-body{
-    background-image: url(logo2.png);
-    background-size:  cover;
-    background-attachment: fixed;
-}
+
 
 
 #pgrey{
@@ -12,10 +8,13 @@ body{
 text{
     border-radius: 15px;
 }
-h4{
+h4,h1{
     color:rgb(187, 187, 69);
     
     
     font-style: italic;
     
+}
+h2{
+    color:gold;
 }
