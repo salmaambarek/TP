@@ -1,5 +1,5 @@
 body{
-    background-image: 
+    background-image: -moz-linear-gradient(images) 
 }
 
 #pgrey{
@@ -8,4 +8,11 @@ body{
 }
 text{
     border-radius: 15px;
+}
+h4{
+    color:rgb(187, 187, 69);
+    
+    
+    font-style: italic;
+    
 }
