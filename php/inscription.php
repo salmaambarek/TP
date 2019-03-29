@@ -14,5 +14,5 @@ echo $gender'<br/>' ;
 echo $date_naissance.'<br/>'; 
 echo $nationalite.'<br/>'; 
  echo $staticEmail2.'<br/>';
-echo $inputPssword2.'<br/>';
+echo $inputPssword2.'<br/>'; 
 ?>
